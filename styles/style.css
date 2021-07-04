@@ -39,25 +39,26 @@ div.topBar {
 
 div.midSec{
     border-style: double;
-    border-color:  var(--bg-color);
+    border-color: var(--bg-color);
     height: 75%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #workXp{
     border-style: double;
-    border-color:  var(--bg-color);
-    float: left;
-    width: 15%;
+    border-color: var(--bg-color);
+    width: 20%;
     height: 100%;
-    writing-mode: sideways-lr;
-    text-orientation: mixed;
-    margin-left: 3%;
+    font-size: x-large;
+    transform: rotate(-90deg) translateX(0%) translateY(30%);
 }
 div.nameHolder{
     float: left;
     width: 70%;
+    border-style: double;
+    border-color: var(--bg-color);
 }
 #nameText {
     font-family: 'Roboto', sans-serif;
@@ -67,18 +68,18 @@ div.nameHolder{
 }
 #personalProjects{
     border-style: double;
-    border-color:  var(--bg-color);
+    border-color: var(--bg-color);
     float: right;
     width: 15%;
     height: 100%;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    margin-right: 3%;
+    padding-right: 3%;
 }
 
 div.bottomSec {
     border-style: double;
-    border-color:  var(--bg-color);
+    border-color: var(--bg-color);
     height: 15%;
     float: left;
     text-align: center;
@@ -94,6 +95,11 @@ div.bottomSec {
     }
     div.sideMenu {
         font-size: large;
+    }
+    #workXp{
+        transform: rotate(-90deg) translateX(0%) translateY(45%);
+        width: 25%;
+        font-size: 21px;
     }
 
 }
