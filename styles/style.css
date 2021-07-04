@@ -19,6 +19,7 @@ html,
 body {
     background-color: var(--bg-color);
     height: 98%;
+    width: auto;
 }
 
 div.sideMenu {
@@ -52,11 +53,11 @@ div.midSec{
     width: 20%;
     height: 100%;
     font-size: x-large;
-    transform: rotate(-90deg) translateX(0%) translateY(30%);
+    transform: rotate(-90deg) translateX(0%) translateY(35%);
 }
 div.nameHolder{
     float: left;
-    width: 70%;
+    width: 100%;
     border-style: double;
     border-color: var(--bg-color);
 }
@@ -89,17 +90,24 @@ div.bottomSec {
     margin-top: 3%;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 741px) {
     #nameText {
-        font-size: 65px;
-    }
-    div.sideMenu {
         font-size: large;
     }
+    div.sideMenu {
+        font-size: x-small;
+    }
+    div.nameHolder{
+        transform: translateX(-15%) translateY(0%);
+    }
     #workXp{
-        transform: rotate(-90deg) translateX(0%) translateY(45%);
-        width: 25%;
-        font-size: 21px;
+        transform: rotate(-90deg) translateX(0%) translateY(-42%);
+        width: 50%;
+        height: 10%;
+        font-size: x-small;
+    }
+    div.topBar {
+        height: 5%;
     }
 
 }
