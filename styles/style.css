@@ -89,9 +89,13 @@ div.bottomSec {
 }
 
 @media screen and (max-width: 1080px) {
-    div.nameText {
-        font-size: 55px;
+    #nameText {
+        font-size: 65px;
     }
+    div.sideMenu {
+        font-size: large;
+    }
+
 }
 
 
