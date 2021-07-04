@@ -10,18 +10,21 @@
         <script src="script.js"></script>
     </head>
 
-    <body>
+    <body onload="switchTitles()">
+        <div class="topBar">
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox"/>
+                    <div class="slider round"></div>
+                </label>
+            </div>
+        </div>
         <div class="name">
             <div class="nameText">OSCAR LAUREANO</div>
-            <h1 class="glitch" data-text="software engineer">B.S. Computer Science</h1>
+            <h1 class="glitch" data-text="software engineer" id="magicTitle">B.S. Computer Science</h1>
         </div>
         
-        <div class="theme-switch-wrapper">
-            <label class="theme-switch" for="checkbox">
-                <input type="checkbox" id="checkbox" checked=true/>
-                <div class="slider round"></div>
-            </label>
-        </div>
+
         
     </body>
 

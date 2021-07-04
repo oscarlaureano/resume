@@ -1,6 +1,8 @@
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
+    float: right;
+    margin: 1%;
 }
     
 .theme-switch-wrapper em {
@@ -53,4 +55,10 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1080px) {
+    .theme-switch-wrapper {
+        margin: 3%;
+    }
 }
