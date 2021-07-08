@@ -101,6 +101,7 @@
 
 @media screen and (max-width: 1080px) {
     .glitch {
-        font-size: x-small;
+        font-size: 16px;
+        transform: scale3d(0.53, 0.53, 0.53);
     }
 }

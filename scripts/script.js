@@ -1,5 +1,5 @@
 
-var timeIntervalNormalText = 1000;
+var timeIntervalNormalText = 1330;
 var timeIntervalGlitchyOverlap = 3000;
 var titlesList = [
     "B.S. COMPUTER SCIENCE",

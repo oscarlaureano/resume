@@ -48,7 +48,7 @@ div.midSec{
     justify-content: center;
 }
 #workXp{
-    border-style: double;
+    border-style: none;
     border-color: var(--bg-color);
     width: 20%;
     height: 100%;
