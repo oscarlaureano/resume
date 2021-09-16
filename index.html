@@ -11,7 +11,16 @@
         <script src="scripts/script.js"></script>
         
     </head>
-
+    <style>
+        
+        a:link, a:visited {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            color: var(--secondary-color);
+        }
+    </style>
     <body onload="switchTitles()">
         <div class="topBar">
             <div class="theme-switch-wrapper">
@@ -23,17 +32,17 @@
         </div>
 
         <div class="midSec">
-            <div class="sideMenu" id="workXp">WORK EXPERIENCE</div>
+            <div class="sideMenu" id="workXp"><a href="pages/underConstruction.html">WORK EXPERIENCE</a></div>
             <div class="nameHolder">
                 <div id="nameText">OSCAR LAUREANO</div>
                 <h1 class="glitch" data-text="software engineer" id="magicTitle">B.S. Computer Science</h1>
             </div>
-            <div class="sideMenu" id="personalProjects">PERSONAL PROJECTS</div>
+            <div class="sideMenu" id="personalProjects"><a href="pages/underConstruction.html">PERSONAL PROJECTS</a></div>
         </div>
         
         <div class="bottomSec">
             <div class="sideMenu" id="contact">
-                    CONTACT
+                <a href="pages/underConstruction.html">CONTACT</a>
             </div>
         </div>
         

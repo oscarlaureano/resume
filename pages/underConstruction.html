@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Oscar Laureano</title>
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="shortcut icon" type="image/png" href="../sources/images/psx.png" />
+    </head>
+    <style>
+        :root {
+            --primary-color: #EDEDED;
+            --secondary-color: #DA0037;
+            --font-color: #e1e1ff;
+            --bg-color: #171717;
+            --heading-color: #818cab;
+        }
+        html,
+        body {
+            background-color: var(--bg-color);
+            height: 98%;
+            width: auto;
+        }
+        
+
+        
+        div.midSec{
+            border-style: double;
+            border-color: var(--bg-color);
+            height: 75%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.nameHolder{
+            float: left;
+            width: 100%;
+            border-style: double;
+            border-color: var(--bg-color);
+        }
+        #nameText {
+            font-family: 'Roboto', sans-serif;
+            font-size: 100px;
+            text-align: center;
+            color: var(--primary-color);
+        }
+        a:link, a:visited {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        a:hover {
+            color: var(--primary-color);
+        }
+        
+        @media screen and (max-width: 741px) {
+            #nameText {
+                font-size: large;
+            }
+            div.sideMenu {
+                font-size: x-small;
+            }
+            div.nameHolder{
+                transform: translateX(-15%) translateY(0%);
+            }
+            #workXp{
+                transform: rotate(-90deg) translateX(0%) translateY(-42%);
+                width: 50%;
+                height: 10%;
+                font-size: x-small;
+            }
+            div.topBar {
+                height: 5%;
+            }
+        
+        }
+        </style>
+    <body>
+        <div class="midSec">
+            <div id="nameText">coming soon...<br><a href="../index.html">¯\_(ツ)_/¯</a></div>
+        </div>
+        
+    </body>
+</html>
