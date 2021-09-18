@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #EDEDED;
+    --secondary-color: #DA0037;
+    --font-color: #e1e1ff;
+    --bg-color: #171717;
+    --heading-color: #818cab;
+}
+a:link, a:visited {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--secondary-color);
+}
+body{
+    height: 80%;
+}
+div.midSec{
+    display: table;
+    margin-top: 10%;
+    width: 69%;
+    padding-left: 30%;
+    height: 30%;
+}
+#backButton{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 2%;
+    height: 20%;
+    text-shadow: 1px 1px  var(--font-color);
+}
+#instagramLink {
+    font-family: 'Roboto', sans-serif;
+    display: table-row;
+    font-size: 150px;
+    text-align: left;
+    color: var(--primary-color);
+}
+#linkedinLink {
+    font-family: 'Roboto', sans-serif;
+    display: table-row;
+    font-size: 125px;
+    text-align: right;
+    color: var(--primary-color);
+}
+#githubLink {
+    font-family: 'Roboto', sans-serif;
+    display: table-row;
+    font-size: 130px;
+    text-align: left;
+    color: var(--primary-color);
+}
