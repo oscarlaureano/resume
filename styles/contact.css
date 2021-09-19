@@ -21,6 +21,8 @@ div.midSec{
     width: 69%;
     padding-left: 30%;
     height: 30%;
+    text-shadow: 1px 1px  var(--font-color);
+    line-height: 1;
 }
 #backButton{
     font-family: 'Roboto', sans-serif;
@@ -34,16 +36,35 @@ div.midSec{
 #instagramLink {
     font-family: 'Roboto', sans-serif;
     display: table-row;
-    font-size: 150px;
+    font-size: 130px;
     text-align: left;
     color: var(--primary-color);
+}
+
+#instagramLink .text-highlight {
+    display: none;
+}
+#instagramLink:hover .text-highlight {
+    display: inline;
+}
+#instagramLink:hover .text-normal {
+    display: none;
 }
 #linkedinLink {
     font-family: 'Roboto', sans-serif;
     display: table-row;
     font-size: 125px;
-    text-align: right;
+    text-align: left;
     color: var(--primary-color);
+}
+#linkedinLink .text-highlight {
+    display: none;
+}
+#linkedinLink:hover .text-highlight {
+    display: inline;
+}
+#linkedinLink:hover .text-normal {
+    display: none;
 }
 #githubLink {
     font-family: 'Roboto', sans-serif;
@@ -51,4 +72,20 @@ div.midSec{
     font-size: 130px;
     text-align: left;
     color: var(--primary-color);
+}
+#githubLink .text-highlight {
+    display: none;
+}
+#githubLink:hover .text-highlight {
+    display: inline;
+}
+#githubLink:hover .text-normal {
+    display: none;
+}
+span{
+    letter-spacing: -10px;
+}
+span:hover {
+    letter-spacing: -5px;
+    transition: letter-spacing 0.5s;
 }
